@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there👋 I'm Shairah Nicole Manzon
 
 <!--
 **ssmanzon-mcl/ssmanzon-mcl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
