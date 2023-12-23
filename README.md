@@ -18,8 +18,8 @@ I'm Shairah Nicole Manzon, a passionate coder with a heart for innovation and a 
 - 🎮 Gaming Guru: I code during the day and conquer virtual worlds by night.
 
 📫 **Connect With Me:**
-- Instagram: [@airahcole03@gmail.com](https://www.facebook.com/Shairah.manzon.03)
-- Facebook: [Shairah Nicole Manzon](https://www.instagram.com/airahcole03/?hl=en)
+- Instagram: [@airahcole03@gmail.com](https://www.instagram.com/airahcole03/?hl=en)
+- Facebook: [Shairah Nicole Manzon](https://www.facebook.com/Shairah.manzon.03/)
 
 🔥 **Coding Mantra:**
 > "In code we trust, bugs we bust, and features we thrust!"
