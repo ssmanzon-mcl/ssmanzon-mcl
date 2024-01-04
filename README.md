@@ -72,6 +72,48 @@ I'm Shairah Nicole Manzon, a passionate coder with a heart for innovation and a 
 
 Feel free to explore my repositories, and let's collaborate on building something awesome together! 🚀✨
 
+<hr>
+
+<h5> Added by Phaula (map-briol23)
+
+## 👩🏽‍💻 Git Commands Cheatsheet:
+
+- **git init** : this command enables you to create a git repository from of an existing directory.
+
+<h5> Parameters/Options: </h5> 
+
+```
+1. -q, --quiet
+2. --bare
+3. --object-format=<format>
+4. --template=<template-directory>
+5. -b <branch-name>, --initial-branch=<branch-name>
+```
+
+<h5> Example: </h5>
+
+<img src="git init.png">
+<br>
+<br>
+<br>
+
+- **git clone [url]** : this command allows you to replicate an existing repository on GitHub, containing every file, branch, and commit.
+
+<h5> Parameters/Options: </h5> 
+
+```
+1. -l, --local
+2. --no-hardlinks
+3. -s, --shared
+4. --reference[-if-able] <repository>
+5. --progress
+```
+
+<h5> Example: </h5>
+
+<img src="git clone.png">
+<br>
+
 </body>
 </html>
 
