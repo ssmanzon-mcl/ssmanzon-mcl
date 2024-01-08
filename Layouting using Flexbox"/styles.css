@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+}
+
+
