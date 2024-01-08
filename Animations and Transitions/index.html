@@ -1,29 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>VS Code with Animations</title>
+    <style>
+        /* Todo 3.0: Your first animation */
+        .todo-0-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .todo-0-container .box {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            animation: moveBox 2s infinite alternate; /* Added animation */
+        }
+
+        @keyframes moveBox {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(100px);
+            }
+        }
+
+        /* Todo 3.1: Keyframes */
+        .todo-1-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .todo-1-container .box {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            animation: colorChange 2s infinite alternate; /* Added animation */
+        }
+
+        @keyframes colorChange {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: blue;
+            }
+        }
+
+        /* Todo 3.2: Timing Functions */
+        .todo-2-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .todo-2-container .box {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            animation: scaleBox 2s ease-in-out infinite alternate; /* Added animation with ease-in-out timing function */
+        }
+
+        @keyframes scaleBox {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.5);
+            }
+        }
+
+        /* Todo 3.3: Transitions Functions */
+        .todo-3-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .todo-3-container button {
+            padding: 10px;
+            font-size: 16px;
+            transition: background-color 0.5s ease-in-out; /* Added transition */
+        }
+
+        .todo-3-container button:hover {
+            background-color: lightblue;
+        }
+    </style>
+    <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <h1>VS Code</h1>
-    </header>
+    <a href="/">Return to home</a>
     <div class="container">
-        <aside class="sidebar">
-            <h2>Sidebar</h2>
-            <ul>
-                <li>Explorer</li>
-                <li>Source Control</li>
-                <li>Extensions</li>
-            </ul>
-        </aside>
-        <main class="main-content">
-            <h1>Main Content</h1>
-            <p>This is the main content area of VS Code.</p>
-            <button class="cta-button">Click me!</button>
-        </main>
+        <div>
+            <h3>Todo 3.0: Your first animation</h3>
+            <div class="todo-0-container">
+                <div class="box">1</div>
+            </div>
+        </div>
+        <div>
+            <h3>Todo 3.1: Keyframes</h3>
+            <div class="todo-1-container">
+                <div class="box">1</div>
+            </div>
+        </div>
+        <div>
+            <h3>Todo 3.2: Timing Functions</h3>
+            <div class="todo-2-container">
+                <div class="box">1</div>
+            </div>
+        </div>
+        <div>
+            <h3>Todo 3.3: Transitions Functions</h3>
+            <div class="todo-3-container">
+                <button>This is a button</button>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
+
