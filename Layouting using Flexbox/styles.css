@@ -1,43 +1,97 @@
-/* Resetting default margin and padding */
-body, h1, h2, ul {
-    margin: 0;
-    padding: 0;
-}
-
-/* Applying a background color to the body for demonstration */
-body {
-    background-color: #f4f4f4;
-}
-
-/* Flex container styles */
+/* Container styling */
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh; /* 100% viewport height */
+    max-width: 1200px;
+    margin: auto;
 }
 
-/* Flex item styles */
+/* Box styling */
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: #3498db;
-    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
-/* Media query for responsive design */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack items vertically on small screens */
-        text-align: center;
-    }
-
-    .box {
-        margin: 10px 0; /* Adjust margin for better spacing */
-    }
+.box.tall {
+    height: 100px;
 }
+
+.box.wide {
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+/* TODO 1 */
+.todo-1-container {
+    display: flex; /* TODO 1.1.1 Set the display of this div to flex*/
+    flex-direction: row; /* TODO 1.1.2 Set the flex direction to row. Then set it to column. What's the difference? Answer: The direction of the main axis changes. */
+    flex-wrap: wrap; /* TODO 1.1.3 Set the flex direction to row. Then enable flex wrap. What does wrap do? Answer: Flex items will wrap onto multiple lines if needed. */
+    gap: 10px; /* Todo 1.1.4 Set the gap of the container to 10px. Now change it to 20px. What does gap do? Answer: It sets the spacing between flex items. */
+}
+
+/* TODO 2 */
+.todo-2-container {
+    display: flex; /* TODO 1.2.1 Set the display to flex and flex direction to row */
+    flex-direction: row;
+    justify-content: start; /* TODO 1.2.2 Justify the content to start, then end, then center. Make sure to see how the position of the divs change */
+    align-items: start; /* TODO 1.2.3 Align the items start, then end, then center. Make sure to see how the position of the divs change */
+    flex-direction: column; /* TODO 1.2.4 Set the flex direction to column and play around with justify-content and align-items */
+}
+
+/* TODO 3 */
+.todo-3-container {
+    display: flex; /* Todo 1.3.1 Set the display to flex and align items center */
+    align-items: center;
+}
+
+/* Select the red box */
+.todo-3-container .red {
+    align-self: flex-start; /* Todo 1.3.2 Align this item to start. Try out the other possible values. What happens? Answer: It changes the alignment of the selected box. */
+}
+
+/* Select the green box */
+.todo-3-container .green {
+    flex-grow: 1; /* Todo 1.3.3 Set flex grow to 1 */
+}
+
+/* Select the blue box */
+.todo-3-container .blue {
+    flex-grow: 2; /* Todo 1.3.4 Set flex grow to 2. Try out the other values. What happens? Answer: It specifies how much a flex item will grow relative to the rest. */
+}
+
+/* TODO 4 */
+.todo-4-container {
+    display: flex; /* Set the display to flex */
+}
+
+/* Select the red box */
+.todo-4-container .red {
+    margin-left: auto; /* Set margin left to auto.  */
+}
+
+/* Select the green box */
+.todo-4-container .green {
+    margin-right: auto; /* Set margin right to auto */
+}
+
+/* Select the blue box */
+.todo-4-container .blue {
+    order: 1; /* Set the order to 1. Try changing the order of the other divs. What does order do? Answer: It changes the order in which flex items appear in the flex container. */
+}
+
