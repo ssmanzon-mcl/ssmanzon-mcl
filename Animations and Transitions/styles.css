@@ -1,79 +1,75 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #007ACC;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    /* Adding transition for smooth background color change on hover */
-    transition: background-color 0.3s ease-in-out;
-}
-
-/* Hover effect for the header */
-header:hover {
-    background-color: #005580;
-}
-
-.container {
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
 }
 
-.sidebar {
-    width: 250px;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+/* Todo 3.0: Create an animation that increases and decreases the scale of the box  */
+.todo-0-container .box {
+    animation: scaleAnimation 2s ease-in-out infinite alternate;
 }
 
-.sidebar h2 {
-    margin-bottom: 10px;
+@keyframes scaleAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
 }
 
-.sidebar ul {
-    list-style: none;
-    padding: 0;
+/* Todo 3.1: Create an animation that moves the box left and right.
+Start with using "from" and "to". Now use "0%" and "100%" as your keyframes.
+Set more keyframes between 0% and 100%. */
+.todo-1-container .box {
+    animation: moveAnimation 2s ease-in-out infinite alternate;
 }
 
-.sidebar li {
-    margin-bottom: 5px;
-    /* Adding transition for smooth color change on hover */
-    transition: color 0.3s ease-in-out;
+@keyframes moveAnimation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
 }
 
-/* Hover effect for the sidebar items */
-.sidebar li:hover {
-    color: #007ACC;
+/* Todo 3.2: Try the different timing functions such as linear, ease-in, ease-in-out, cubic-bezier, and steps */
+.todo-2-container .box {
+    animation: timingFunctionAnimation 3s infinite alternate;
 }
 
-.main-content {
-    flex: 1;
-    padding: 20px;
+@keyframes timingFunctionAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(50px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
-.cta-button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    /* Adding transition for smooth background color change on hover */
-    transition: background-color 0.3s ease-in-out;
+/* Todo 3.3: Create a transition that will raise the button up and will make it cast a shadow when you hover over the button */
+/* Bonus: apply the transition on the box shadow with different duration and timing function. This should all be in one line */
+.todo-3-container button {
+    transition: transform 0.5s ease-in-out, box-shadow 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
-/* Hover effect for the button */
-.cta-button:hover {
-    background-color: #45a049;
-}
-
-/* Click effect for the button */
-.cta-button:active {
-    transform: translateY(2px);
-    /* Adding transition for smooth click effect */
-    transition: transform 0.1s ease-in-out;
+.todo-3-container button:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
