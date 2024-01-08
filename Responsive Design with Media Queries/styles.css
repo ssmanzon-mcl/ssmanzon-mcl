@@ -1,105 +1,67 @@
-/* Resetting default margin and padding */
-body, h1, h2, ul, li, a {
-    margin: 0;
-    padding: 0;
-}
-
-/* Applying a background color to the body for demonstration */
-body {
-    background-color: #f4f4f4;
-}
-
-/* Header styles */
-header {
-    background-color: #3498db;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Navigation bar styles */
-nav {
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    text-align: center;
-    padding: 10px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #ecf0f1;
-    font-weight: bold;
-}
-
-/* Container and main content styles */
+/* Container styling */
 .container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.main-content {
-    flex: 1;
-    padding: 20px;
+/* Box styling */
+.box {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }
 
-/* Sidebar styles */
-.sidebar {
-    width: 250px;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+/* Todo 2.0 */
+/* Define and apply CSS styles such that the background of .change-color changes to a different color when the screen is smaller than 500px */
+@media only screen and (max-width: 500px) {
+  .change-color {
+    background-color: blue; /* Change color as needed */
+  }
 }
 
-.sidebar h2 {
-    margin-bottom: 10px;
+/* Todo 2.1 */
+/* Define and apply CSS styles such that the layout of .change-layout becomes a column when the screen's width is smaller than 500px */
+@media only screen and (max-width: 500px) {
+  .change-layout {
+    flex-direction: column; /* Change layout as needed */
+  }
 }
 
-.sidebar ul {
-    list-style: none;
-    padding: 0;
+/* Todo 2.2 */
+/* Define the common breakpoints for the following devices - phone, tablet, small screens (laptop), and large screens (desktops). For each break point, the background of .common-breakpoints must change. */
+/* Phone */
+@media only screen and (max-width: 500px) {
+  .common-breakpoints {
+    background-color: orange; /* Change background color for phone */
+  }
 }
 
-.sidebar li {
-    margin-bottom: 5px;
+/* Tablet */
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  .common-breakpoints {
+    background-color: yellow; /* Change background color for tablet */
+  }
 }
 
-/* Footer styles */
-footer {
-    background-color: #3498db;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+/* Small screens (laptop) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .common-breakpoints {
+    background-color: green; /* Change background color for small screens (laptop) */
+  }
 }
 
-/* Media queries for responsive design */
-@media (max-width: 768px) {
-    nav {
-        display: block;
-    }
-
-    nav li {
-        display: block;
-        margin: 0;
-        text-align: center;
-    }
-
-    .container {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
-    }
+/* Large screens (desktops) */
+@media only screen and (min-width: 1025px) {
+  .common-breakpoints {
+    background-color: purple; /* Change background color for large screens (desktops) */
+  }
 }
+
 
