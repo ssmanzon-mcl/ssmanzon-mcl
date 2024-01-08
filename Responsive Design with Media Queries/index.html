@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <!-- Todo 0: Add the meta tag to set the width and scale of the viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Responsive Design Example</title>
+    <title>Media Queries</title>
 </head>
+
 <body>
-    <header>
-        <h1>Responsive Design</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <main class="main-content">
-            <h2>Main Content</h2>
-            <p>This is the main content area of the website.</p>
-        </main>
-        <aside class="sidebar">
-            <h2>Sidebar</h2>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </aside>
+    <a href="/">Return to home</a>
+    <div class="container" style="max-width: 1200px; margin: auto;">
+        <div>
+            <h3>Todo 2.0: Your first media query</h3>
+            <div>
+                <div class="change-color box" style="background-color: yellow;">
+                    1
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Todo 2.1: Changing Layouts </h3>
+            <div class="change-layout" style="display: flex; flex-wrap: wrap;">
+                <div class="box" style="flex: 0 0 33.33%; box-sizing: border-box;">1</div>
+                <div class="box" style="flex: 0 0 33.33%; box-sizing: border-box;">2</div>
+                <div class="box" style="flex: 0 0 33.33%; box-sizing: border-box;">3</div>
+                <div class="box" style="flex: 0 0 33.33%; box-sizing: border-box;">4</div>
+                <div class="box" style="flex: 0 0 33.33%; box-sizing: border-box;">5</div>
+                <div class="box" style="flex: 0 0 33.33%; box-sizing: border-box;">6</div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Todo 2.2:  </h3>
+            <div class="change-layout" style="display: flex; flex-wrap: wrap;">
+                <div class="box" style="flex: 0 0 50%; box-sizing: border-box;">1</div>
+                <div class="box" style="flex: 0 0 50%; box-sizing: border-box;">2</div>
+                <div class="box" style="flex: 0 0 50%; box-sizing: border-box;">3</div>
+                <div class="box" style="flex: 0 0 50%; box-sizing: border-box;">4</div>
+                <div class="box" style="flex: 0 0 50%; box-sizing: border-box;">5</div>
+                <div class="box" style="flex: 0 0 50%; box-sizing: border-box;">6</div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Todo 2.3: Common Breakpoints</h3>
+            <div class="common-breakpoints" style="background-color: lightblue;">
+            </div>
+        </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Your Website</p>
-    </footer>
 </body>
+
 </html>
+
