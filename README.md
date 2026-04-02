@@ -74,7 +74,6 @@
 <ul>
     <li>✨ <b>Age:</b> I am 22 years old.</li>
     <li>🎵 <b>Music & K-Pop:</b> My favorite song is <i>Champion</i> by Blackpink. 🎤</li>
-    
     <li>🍿 <b>Movie:</b> Big fan of cinematic movies like <i>The Greatest Showman</i> and mystery-filled series like <i>Stranger Things</i>. 🎞️🔦</li>
     <li>🧠 <b>Life Motto:</b> "In code we trust, bugs we bust, and features we thrust!" ⚡</li>
 </ul>
