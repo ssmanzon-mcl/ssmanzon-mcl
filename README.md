@@ -25,7 +25,7 @@ PLS USE THIS EXACT CODE. DONT CHANGE ANYTHING IMPORTANTTTT<!DOCTYPE html>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS">
     <br><br>
     
-    <b>Backend & DB:</b><br>
+   <b>Backend & DB:</b><br>
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL">
     <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" alt="Oracle">
     <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="Supabase">
