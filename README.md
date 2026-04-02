@@ -1,4 +1,4 @@
-PLS USE THIS EXACT CODE. DONT CHANGE ANYTHING IMPORTANTTTT<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
