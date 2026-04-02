@@ -1,56 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 { color: #2c3e50; }
-        
-        h2 { 
-            border-bottom: 2px solid #eee; 
-            padding-bottom: 8px; 
-            margin-top: 30px;
-        }
-
-        /* This fixes the messy layout */
-        .badge-group {
-            display: flex;
-            align-items: center; /* Vertically centers text and images */
-            margin-bottom: 15px; /* Adds space between rows */
-            flex-wrap: wrap; /* Allows badges to move to next line on small screens */
-        }
-
-        .category-title {
-            font-weight: bold;
-            min-width: 220px; /* Forces labels to take up the same amount of space */
-            color: #555;
-            display: inline-block;
-        }
-
-        .badge-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px; /* Adds consistent spacing between badges */
-        }
-
-        img {
-            height: 28px; /* Keeps all badges the same size */
-        }
-
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        a { color: #007acc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
