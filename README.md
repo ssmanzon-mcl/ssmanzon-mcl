@@ -1,4 +1,4 @@
-FIX IT HERE IN MY CODE PLS <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
