@@ -64,7 +64,6 @@
   <li><b>Cisco:</b> Certified Ethical Hacker & Intro to Cybersecurity (2025) 💻</li>
   <li><b>Packt:</b> Advanced Networking, Virtualization & Security (2026) ☁️</li>
   <li><b>CalArts:</b> The Language of Design: Form and Meaning (2025) 🖌️</li>
-  <li><b>TOEIC:</b> Professional English Proficiency Score: 805/990 🌍</li>
 </ul>
 </div>
 
