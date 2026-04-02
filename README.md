@@ -7,7 +7,7 @@
 
 <h1>Hello, World! I'm Shairah Nicole Manzon 👋👩‍💻</h1>
 
-<p><i>I am a highly motivated <b>4th-year BS Information Technology student</b> at Mapúa Malayan Colleges Laguna, specializing in <b>Cybersecurity</b>. I am an aspiring Software Developer with a deep passion for Backend Development, Database Management, and building secure digital environments. 🔐✨</i></p>
+<p>I am a highly motivated <b>4th-year BS Information Technology student</b> at Mapúa Malayan Colleges Laguna, specializing in <b>Cybersecurity</b>. I am an aspiring Software Developer with a deep passion for Backend Development, Database Management, and building secure digital environments. 🔐✨</p>
 
 <h2>🚀 Quick Intro:</h2>
 <ul>
